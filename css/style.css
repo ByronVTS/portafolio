@@ -89,7 +89,6 @@ h4{
     margin-top: 5rem;
 }
 .card{
-    /* border: 1px solid black; */
     border-radius: 15px;
     background-color: #eeecec;
 }
@@ -112,4 +111,27 @@ h4{
     color: rgb(59, 59, 141);
     margin-top: 1rem;
     font-size: 2rem;
+}
+/* MOBILE */
+@media (max-width: 414px) {
+    .nav-bar__options{
+        display: none;
+    }
+    .cards-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 2rem;
+        justify-content: center;
+    }
+    .card{
+        max-width: 18rem;
+    }
+    .card__picture{
+        width: 8rem;
+        margin: 2rem auto;
+    }
+    .card__tecnologiasAplicadas{
+        display: none;
+    }
 }
