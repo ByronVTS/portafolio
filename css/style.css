@@ -194,4 +194,7 @@ h4{
     .nav-bar__options-mobile a{
         color:rgb(89, 90, 89);
     }
+    h3{
+        font-size: 2rem;
+    }
 }
